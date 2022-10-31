@@ -20,10 +20,6 @@ body {
   margin: 0 12px;
 }
 
-@media screen and (min-width: 376px) {
-
-}
-
 .calculator__display {
   background-color: #000;
   color: #000;
@@ -70,7 +66,7 @@ body {
   padding: 10px;
 }
 
-.calculator__button {
+button {
   min-height: 50px;
   font-size: 20px;
   font-weight: 100;
@@ -80,16 +76,16 @@ body {
   background-color: #c7c7c7;
 }
 
-.calculator__button:hover,
-.calculator__button:active {
+button:hover,
+button:active {
   filter: brightness(110%);
 }
 
-.calculator__button:active {
+button:active {
   transform: translateY(1px);
 }
 
-.calculator__button:focus-visible {
+button:focus-visible {
   outline-offset: 3px;
   outline: 2px solid #0af;
 }
